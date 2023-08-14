@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+            <!-- jquary -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!-- navbar and menu section -->
+    <nav class="main-header header-color navbar navbar-expand navbar-light" id="stikey"> 
+        <div class="container-xxl category-container-custom" id="padding">
+            <div class="d-flex align-items-center" id="logo">
+                <div id="myLinks" style="display: none;">
+                    <div class="menu-box"    onclick="myFunction">
+                       <div class="penel">
+                        <div class="menu-log"><span>LOGIN</span></div>
+
+                        <div class="thame-color">
+                        <button class="theme-button-dark color-white">Day</button>
+                        
+                        <button class="theme-button-light">Night</button>
+                        </div>
+                        <div class="dot"></div>
+
+                        <div class="list">
+
+                            <div class="side-hover">
+                                <a href="#" class="anker"> <li> <img src="image/Store-Locator.f6a5770e5b27f36c215d.jpg" alt="" width="25px" height="25px"> Store Locator</li></a>
+
+                            </div>
+                            
+                            <div class="side-hover">
+                                <a href="#" class="anker"> <li> <img src="image/Tracking-order.4b97000517b60dac1935.jpg" alt="" width="25px" height="25px"> Track Order</li></a>
+                            </div>
+
+                            <div class="side-hover">
+                                <a href="#" class="anker"> <li> <img src="image/Explore-menu.5a4a8ea8405b961694cb.jpg" alt="" width="25px" height="25px"> Explore Menu</li></a>
+                            </div>
+                            
+                        </div>
+
+                        <div class="dot-1"></div>
+
+                        <div class="side-hover">
+                            <a href="#">About Us</a>
+                        </div>
+                        <div class="side-hover">
+                            <a href="#">FeedBack</a>
+                        </div>
+                        <div class="side-hover">
+                            <a href="#">Terms & Conditions</a>
+                        </div>
+                        <div class="side-hover">
+                            <a href="#">Privacy Policy</a>
+                        </div>
+                        <div class="side-hover">
+                            <a href="#">Contact Us</a>
+                        </div>
+                        <div class="side-hover">
+                            <a href="#">Mitao Bhook</a>
+                        </div>
+                        <div class="side-hover"> 
+                            <a href="#">Mitao Bhook - Scholarship</a>
+                        </div>
+                        <div class="side-hover">
+                            <a href="#">Careers</a>
+                        </div>
+
+                       </div>
+                    </div>
+                </div>
+                  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="bi bi-list"></i>
+                  </a>
+
+                <div class="header-logo"><a href="#"><img class="brand-logo" src="image/logo.png" alt=""></a></div>
+ 
+                <div class="order-through">
+                    <div class="order-option">
+                        <div> <button class="delivery">  <img src="image/rider.png" alt="" width="30px" height="30px"> DELIVERY </button></div>
+
+                        <div> <button class="picup"><img src="image/pickup.png" alt="" width="30px" height="30px">&nbsp; PICKUP</button></div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="bucket">
+                <div class="bucket-box"><img src="https://www.kfcpakistan.com/static/media/bucket-filled.d2ad11819eca0f28a8ac.svg" alt="">
+                </div>
+
+                <div class="login"> LOGIN</div>
+
+            </div>
+        </div>
+ 
+    </nav>
+
+    
+
+<!-- body section all design -->
+    <div class="bg-image">
+        <img src="image/kfc.jpg" alt="">
+    </div>
+
+    <!-- order section -->
+    <div class="body-design">
+        <div class="text-center">
+            <button>REORDER</button>
+        </div>
+
+        <div class="dotted">
+            <span class="title">EXPLORE MENU</span>
+            <div class="menu-dot"></div>
+        </div>
+<!-- jquary -->
+        <div class="browser-container">
+          
+
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="i-div">
+                        <div class="i-main">
+                            <a href="#">
+                                <div class="product">
+                                    <img src="image/burger.png" alt="">
+                                    <h6>Everyday value</h6>
+                                    <div class="fb-dot"></div>
+                                    <div class="degree"></div>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <div class="i-div">
+                        <div class="i-main">
+                            <a href="#">
+                                <div class="product">
+                                    <img src="image/2.png" alt="">
+                                    <h6>Ala-Carte-&-Combos</h6>
+                                    <div class="fb-dot"></div>
+                                    <div class="degree"></div>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="i-div">
+                        <div class="i-main">
+                            <a href="#">
+                                <div class="product">
+                                    <img src="image/3.png" alt="">
+                                    <h6>Signature-Boxes</h6>
+                                    <div class="fb-dot"></div>
+                                    <div class="degree"></div>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="i-div">
+                        <div class="i-main">
+                            <a href="#">
+                                <div class="product">
+                                    <img src="image/4.png" alt="">
+                                    <h6>Sharing</h6>
+                                    <div class="fb-dot"></div>
+                                    <div class="degree"></div>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="i-div">
+                        <div class="i-main">
+                            <a href="#">
+                                <div class="product">
+                                    <img src="image/6.png" alt="">
+                                    <h6>Snacks-&-Beverages</h6>
+                                    <div class="fb-dot"></div>
+                                    <div class="degree"></div>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="i-div">
+                        <div class="i-main">
+                            <a href="#">
+                                <div class="product">
+                                    <img src="image/5.png" alt="">
+                                    <h6>Midnight (Start at 12 am)</h6>
+                                    <div class="fb-dot"></div>
+                                    <div class="degree"></div>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <h2><span>BEST SELLERS</span></h2>
+            <div class="menu-dot"></div>
+            <div class="best-seller">
+                <div class="best-seller-img ">
+                 <div class="kfc-box" id="kfc">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <span class="wdp-ribbon wdp-ribbon-two"> 
+                    
+                    <span class="d-flex align-items-end" id="disply">
+                        <h5 class="rs-title mb-0">Rs </h5>
+                        <h5 class="mb-0 pkr-title"> 270</h5>
+                    </span>
+                  </span>
+                  <h6>Krunch Burger</h6>
+                  <img src="image/burger.png" alt="" class="bestseller-container">
+                </div>
+
+                <div class="best-seller-img ">
+                  <div class="kfc-box" id="kfc">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <span class="wdp-ribbon wdp-ribbon-two"> 
+                    
+                    <span class="d-flex align-items-end" id="disply">
+                        <h5 class="rs-title mb-0">Rs </h5>
+                        <h5 class="mb-0 pkr-title"> 700</h5>
+                    </span>
+                  </span>
+                  <h6>Mighty Zinger</h6>
+                  <img src="image/2.png" alt="" class="bestseller-container">
+                </div>
+
+                
+                <div class="best-seller-img ">
+                 <div class="kfc-box" id="kfc">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <span class="wdp-ribbon wdp-ribbon-two"> 
+                    
+                    <span class="d-flex align-items-end" id="disply">
+                        <h5 class="rs-title mb-0">Rs </h5>
+                        <h5 class="mb-0 pkr-title"> 610</h5>
+                    </span>
+                  </span>
+                  <h6>Hot Wings Bucket</h6>
+                  <img src="image/3.png" alt="" class="bestseller-container">
+                </div>
+
+                <div class="best-seller-img ">
+                  <div class="kfc-box" id="kfc">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <span class="wdp-ribbon wdp-ribbon-two"> 
+                    
+                    <span class="d-flex align-items-end" id="disply">
+                        <h5 class="rs-title mb-0">Rs </h5>
+                        <h5 class="mb-0 pkr-title"> 520</h5>
+                    </span>
+                  </span>
+                  <h6>Krunch combo</h6>
+                  <img src="image/4.png" alt="" class="bestseller-container">
+                </div>
+            </div>
+        </div>
+    <!-- top deals -->
+      <div class="container mb-5" id="container">
+        <h2 class="items-title">
+            <span>TOP DEALS</span>
+        </h2>
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-6">
+                <div id="magerment">
+                    <div class="card menu-card ">
+                        <div class="kfc-box" id="kfc">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="manu-img-item">
+                            <img src="image/6.png" alt="" class="card-img-top card-img">
+
+                        </div>
+                        <div class="card-body p-0">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="card-title">Crispy Duo Box</h5>
+                                <span>
+                                    <div>
+                                        <button class="btn-items" id="btn-items">
+                                            <i class="bi bi-suit-heart"></i>
+                                        </button>
+                                    </div>
+                                </span>
+                            </div>
+                            <p class="card-text">
+                                Turn up the fun with 5 pcs Hot & Crispy Chicken + 1 Large fries + 2 Regular drinks
+                            </p>
+                            <h4 class="kfc-price">RS
+                                1250
+                            </h4>
+
+                            <div class="price-label">
+                                <div>
+                                    <button class="ri-add-line rgeister-btn Add-web px-2">
+                                        <i class="bi bi-plus"></i>
+                                        <span>add to brucket</span>
+                                    </button>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+
+                    </div>
+                
+                    <div class="card menu-card ">
+                        <div class="kfc-box" id="kfc">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="manu-img-item">
+                            <img src="image/5.png" alt="" class="card-img-top card-img">
+
+                        </div>
+                        <div class="card-body p-0">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="card-title">Crispy Duo Box</h5>
+                                <span>
+                                    <div>
+                                        <button class="btn-items" id="btn-items">
+                                            <i class="bi bi-suit-heart"></i>
+                                        </button>
+                                    </div>
+                                </span>
+                            </div>
+                            <p class="card-text">
+                                Turn up the fun with 5 pcs Hot & Crispy Chicken + 1 Large fries + 2 Regular drinks
+                            </p>
+                            <h4 class="kfc-price">RS
+                                670
+                            </h4>
+
+                            <div class="price-label">
+                                <div>
+                                    <button class="ri-add-line rgeister-btn Add-web px-2">
+                                        <i class="bi bi-plus"></i>
+                                        <span>add to brucket</span>
+                                    </button>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="card menu-card ">
+                        <div class="kfc-box" id="kfc">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="manu-img-item">
+                            <img src="image/4.png" alt="" class="card-img-top card-img">
+
+                        </div>
+                        <div class="card-body p-0">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="card-title">Crispy Duo Box</h5>
+                                <span>
+                                    <div>
+                                        <button class="btn-items" id="btn-items">
+                                            <i class="bi bi-suit-heart"></i>
+                                        </button>
+                                    </div>
+                                </span>
+                            </div>
+                            <p class="card-text">
+                                Turn up the fun with 5 pcs Hot & Crispy Chicken + 1 Large fries + 2 Regular drinks
+                            </p>
+                            <h4 class="kfc-price">RS
+                                850
+                            </h4>
+
+                            <div class="price-label">
+                                <div>
+                                    <button class="ri-add-line rgeister-btn Add-web px-2">
+                                        <i class="bi bi-plus"></i>
+                                        <span>add to brucket</span>
+                                    </button>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="card menu-card ">
+                        <div class="kfc-box" id="kfc">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="manu-img-item">
+                            <img src="image/3.png" alt="" class="card-img-top card-img">
+
+                        </div>
+                        <div class="card-body p-0">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="card-title">Crispy Duo Box</h5>
+                                <span>
+                                    <div>
+                                        <button class="btn-items" id="btn-items">
+                                            <i class="bi bi-suit-heart"></i>
+                                        </button>
+                                    </div>
+                                </span>
+                            </div>
+                            <p class="card-text">
+                                Turn up the fun with 5 pcs Hot & Crispy Chicken + 1 Large fries + 2 Regular drinks
+                            </p>
+                            <h4 class="kfc-price">RS
+                                2470
+                            </h4>
+
+                            <div class="price-label">
+                                <div>
+                                    <button class="ri-add-line rgeister-btn Add-web px-2">
+                                        <i class="bi bi-plus"></i>
+                                        <span>add to brucket</span>
+                                    </button>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+      <div class="grid-main">
+        <div class="g-box">
+         <div class="g-item"> <a href="#"> <img src="image/p1.png" alt=""></a></div>
+         <div class="g-item"> <a href="#"> <img src="image/p2.png" alt=""></a></div>
+        </div>
+
+        <div class="sec-box">
+         <div class="g-item"> <a href="#"> <img src="image/p3.jpg" alt=""></a></div>
+
+         <div class="g-item"> <div class="pic-size"><img src="image/p4.png" alt="">
+        <h5>Adding 11 herbs and spices, Explore our menu and add items to your cart.</h5>
+        <button>Explore Menu</button>
+        </div>
+         </div>
+        </div>
+       
+        
+      </div>
+
+    </div>
+     <!-- photo -->
+     
+         <!-- footer contant -->
+
+      <div class="footer-container">
+        <div class="head">
+            <div class="social-container">
+                <img src="image/logo.png" alt="">
+                <div class="footer-line"></div>
+                <div class="">
+                    <div class="social-icons">
+                        <a href="#"> <i class="bi bi-youtube"></i></a>
+
+                        <a href="#"> <i class="bi bi-instagram"></i></a>
+
+                        <a href="#"> <i class="bi bi-facebook"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="row" id="row-size">
+                <div class="col-md-3">
+                    <ul class="footer-info">
+                        <a href="#"><li>About Us</li></a>
+                        <a href="#"><li>Mitao Bhook</li></a>
+                        <a href="#"><li>Mitao Bhook - Scholarship</li></a>
+                        <a href="#"><li>Privacy Policy</li></a>
+                        <a href="#"><li>Careers</li></a>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="footer-info">
+                        <a href="#"><li>Contact Us</li></a>
+                        <a href="#"><li>Contact Us</li></a>
+                        <a href="#"><li>Track Order</li></a>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="footer-info">
+                        <a href="#"><li>Terms & Conditions</li></a>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <div class="app-kfc">
+                        <a href="#"><img src="image/app.png" alt=""></a>
+
+                        <a href="#"><img src="image/google.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="power-by">
+                    <h6 class="mt-0">2023 KFC. All rights reserved </h6>
+                    <div class="right">
+                        <h1>power by</h1>
+                        <a href="#">SimpleX Technology Solutions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

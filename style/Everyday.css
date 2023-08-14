@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Raleway,sans-serif !important;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+.main-header {
+	position: sticky;
+	top: 0;
+	width: 100%;
+	height: 100px;
+	z-index: 99;
+}
+.category-container-custom {
+	width: 92%;
+	height: 100px;
+	margin: auto;
+
+}
+#padding {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+#logo {
+	width: 490px;
+	height: 75px;
+	background: #fff;
+	margin-top: 8px;
+}
+
+.bi.bi-list {
+	font-size: 38px;
+	color: #000;
+}
+
+.menu-box {
+	width: 300px;
+	height: 100vh;
+	background: #fff;
+	position: absolute;
+	margin-top: 38px;
+	margin-left: -50px;
+	overflow: auto;
+	padding-bottom: 20px;
+}
+
+
+
+
+.brand-logo {
+	width: 101px;
+	height: 130px;
+	padding-top: 10px;
+}
+
+.order-through {
+	width: 330px;
+	height: 53px;
+	float: left;
+	
+}
+.order-option {
+	width: 330px;
+	height: 36px;
+	display: flex;
+}
+
+.delivery {
+	border: 3px solid red;
+	padding: 4px 23px;
+	border-radius: 8px;
+	font-weight: bold;
+	font-size: 14px;
+}
+.picup {
+	padding: 4px 23px;
+	border-radius: 8px;
+	font-weight: bold;
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+.bucket {
+	width: 60px;
+	height: 87px;
+	display: flex;
+	margin-right: 65px;
+}
+
+.bucket-box {
+	display: contents;
+}
+
+.login {
+	color: #fff;
+	background: red;
+	text-align: center;
+	width: 77px;
+	height: 41px;
+	border-radius: 7px;
+	padding: 10px;
+	font-weight: bold;
+	margin-top: 21px;
+	cursor: pointer;
+}
